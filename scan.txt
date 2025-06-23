@@ -1,0 +1,13 @@
+# Nmap 7.95 scan initiated Tue Jun 24 00:49:48 2025 as: /usr/lib/nmap/nmap -sS -oN scan.txt 192.168.1.1
+Nmap scan report for 192.168.1.1
+Host is up (0.011s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: B4:3D:08:B4:6A:08 (GX International BV)
+
+# Nmap done at Tue Jun 24 00:49:48 2025 -- 1 IP address (1 host up) scanned in 0.56 seconds
